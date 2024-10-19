@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/sf-pro-display/SFPRODISPLAYREGULAR.otf') format('opentype'),
+         url('fonts/sf-pro-display/SFPRODISPLAYREGULAR.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    background-color: #99EBF4;
+    vertical-align: middle;
+    display: flex;
+}
+
+.container .image-group {
+    width: auto;
+    margin: 30px;
+}
+
+.image-group img.image-1 {
+    border-bottom-right-radius: 20px;
+}
+
+.image-group img.image-2 {
+    border-bottom-left-radius: 20px;
+}
+
+.image-group img.image-3 {
+    border-top-right-radius: 20px;
+}
+
+.image-group img.image-4 {
+    border-top-left-radius: 20px;
+}
+
+.text-group h1 {
+    font-size: 42px;
+}
