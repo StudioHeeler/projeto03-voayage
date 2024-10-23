@@ -130,3 +130,32 @@ body {
     font-style: normal;
     padding: 8px;
 }
+footer{
+    background-color: #00a0b0;
+    text-decoration: none;
+    display: flex;
+    width:  99%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+footer li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+   
+   
+}
+.links-footer ul{
+    width: 100%;
+}
+.links-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
